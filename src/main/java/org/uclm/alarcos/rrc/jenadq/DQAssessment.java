@@ -1,11 +1,11 @@
 package org.uclm.alarcos.rrc.jenadq;
 
-import DQModel.DQModel;
-import com.hp.hpl.jena.rdf.model.Literal;
-import com.hp.hpl.jena.rdf.model.Model;
-import com.hp.hpl.jena.rdf.model.ModelFactory;
-import com.hp.hpl.jena.reasoner.rulesys.Rule;
-import vocabulary.DQA;
+import org.apache.jena.rdf.model.Literal;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.reasoner.rulesys.Rule;
+import org.uclm.alarcos.rrc.dqmodel.DQModel;
+import org.uclm.alarcos.rrc.vocabulary.DQA;
 
 import java.util.*;
 
@@ -28,7 +28,7 @@ public class DQAssessment {
 	 *            Address of HTTP service
 	 */
 	public DQAssessment(LinkedList<DQDimension> dqDimensionList, String URI,
-			String endpoint) {
+						String endpoint) {
 		super();
 		this.dqDimensionList = dqDimensionList;
 		this.URI = URI;
@@ -64,8 +64,8 @@ public class DQAssessment {
 	 *            Assessment identifier
 	 */
 	public DQAssessment(LinkedList<DQDimension> dqDimensionList, String uRI,
-			String endpoint, List<Rule> contextualRules, List<Rule> useRules,
-			int depth, String dQAssessmentIdentifier) {
+						String endpoint, List<Rule> contextualRules, List<Rule> useRules,
+						int depth, String dQAssessmentIdentifier) {
 		super();
 		this.dqDimensionList = dqDimensionList;
 		URI = uRI;
