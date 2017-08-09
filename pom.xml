@@ -14,5 +14,17 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.jena/jena-core -->
+    <dependency>
+      <groupId>org.apache.jena</groupId>
+      <artifactId>jena-core</artifactId>
+      <version>3.4.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.jena/jena-arq -->
+    <dependency>
+      <groupId>org.apache.jena</groupId>
+      <artifactId>jena-arq</artifactId>
+      <version>3.4.0</version>
+    </dependency>
   </dependencies>
 </project>
