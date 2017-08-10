@@ -1,20 +1,20 @@
 package org.uclm.alarcos.rrc.jenadq;
 
-import DQModel.DQModel;
-import JenaDQExceptions.IdentifierException;
-import JenaDQExceptions.ModelGenerationException;
-import JenaDQExceptions.RuleException;
-import JenaDQExceptions.URIException;
-import com.hp.hpl.jena.ontology.OntModel;
-import com.hp.hpl.jena.ontology.OntProperty;
-import com.hp.hpl.jena.query.*;
-import com.hp.hpl.jena.rdf.model.*;
-import com.hp.hpl.jena.reasoner.Reasoner;
-import com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasoner;
-import com.hp.hpl.jena.reasoner.rulesys.Rule;
-import com.hp.hpl.jena.vocabulary.RDF;
-import utilities.UriUtil;
-import vocabulary.DQA;
+import org.apache.jena.ontology.OntModel;
+import org.apache.jena.ontology.OntProperty;
+import org.apache.jena.query.*;
+import org.apache.jena.rdf.model.*;
+import org.apache.jena.reasoner.Reasoner;
+import org.apache.jena.reasoner.rulesys.GenericRuleReasoner;
+import org.apache.jena.reasoner.rulesys.Rule;
+import org.apache.jena.vocabulary.RDF;
+import org.uclm.alarcos.rrc.dqmodel.DQModel;
+import org.uclm.alarcos.rrc.jenadqexceptions.IdentifierException;
+import org.uclm.alarcos.rrc.jenadqexceptions.ModelGenerationException;
+import org.uclm.alarcos.rrc.jenadqexceptions.RuleException;
+import org.uclm.alarcos.rrc.jenadqexceptions.URIException;
+import org.uclm.alarcos.rrc.utilities.UriUtil;
+import org.uclm.alarcos.rrc.vocabulary.DQA;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -55,8 +55,8 @@ public class _dimCompleteness extends DQDimension {
 	 *            target URI
 	 */
 	public _dimCompleteness(DQModel targetmodel, List<Rule> useRules,
-			List<Rule> contextualRuleList, int depth, String endpoint,
-			String uri) {
+							List<Rule> contextualRuleList, int depth, String endpoint,
+							String uri) {
 		super(targetmodel);
 		this.dimName = "Completeness";
 		this.setRuleList(useRules);
@@ -104,7 +104,7 @@ public class _dimCompleteness extends DQDimension {
 	 * @return MeasurementResult InterlinkingCompleteness
 	 */
 	@Deprecated
-	public JenaDQ.MeasurementResult m_interlinkingCompleteness() {
+	public MeasurementResult m_interlinkingCompleteness() {
 		MeasurementResult mRes = new MeasurementResult(
 				"InterlinkingCompleteness", this.dimName);
 
@@ -139,7 +139,7 @@ public class _dimCompleteness extends DQDimension {
 	 * @return MeasurementResult schemaCompleteness
 	 */
 	@Deprecated
-	public JenaDQ.MeasurementResult m_schemaCompleteness() {
+	public MeasurementResult m_schemaCompleteness() {
 		MeasurementResult mRes = new MeasurementResult("SchemaCompleteness",
 				this.dimName);
 

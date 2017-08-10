@@ -1,8 +1,8 @@
 package org.uclm.alarcos.rrc.jenadq;
 
-import DQModel.DQModel;
-import com.hp.hpl.jena.rdf.model.Model;
-import com.hp.hpl.jena.reasoner.rulesys.Rule;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.reasoner.rulesys.Rule;
+import org.uclm.alarcos.rrc.dqmodel.DQModel;
 
 import java.io.InputStream;
 import java.util.ArrayList;

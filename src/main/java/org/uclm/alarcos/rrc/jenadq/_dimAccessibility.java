@@ -1,20 +1,22 @@
 package org.uclm.alarcos.rrc.jenadq;
 
-import DQModel.DQModel;
-import JenaDQExceptions.IdentifierException;
-import JenaDQExceptions.ModelGenerationException;
-import JenaDQExceptions.RuleException;
-import JenaDQExceptions.URIException;
-import com.hp.hpl.jena.query.*;
-import com.hp.hpl.jena.rdf.model.*;
-import com.hp.hpl.jena.reasoner.Reasoner;
-import com.hp.hpl.jena.reasoner.rulesys.GenericRuleReasoner;
-import com.hp.hpl.jena.reasoner.rulesys.Rule;
-import com.hp.hpl.jena.vocabulary.RDF;
-import vocabulary.DQA;
+
+import org.apache.jena.query.*;
+import org.apache.jena.rdf.model.*;
+import org.apache.jena.reasoner.Reasoner;
+import org.apache.jena.reasoner.rulesys.GenericRuleReasoner;
+import org.apache.jena.reasoner.rulesys.Rule;
+import org.apache.jena.vocabulary.RDF;
+import org.uclm.alarcos.rrc.dqmodel.DQModel;
+import org.uclm.alarcos.rrc.jenadqexceptions.IdentifierException;
+import org.uclm.alarcos.rrc.jenadqexceptions.ModelGenerationException;
+import org.uclm.alarcos.rrc.jenadqexceptions.RuleException;
+import org.uclm.alarcos.rrc.jenadqexceptions.URIException;
+import org.uclm.alarcos.rrc.vocabulary.DQA;
 
 import java.util.ArrayList;
 import java.util.List;
+
 
 /**
  * An extension of <code>DQDimension</code> DQDim <code>Accessibility</code>
@@ -48,8 +50,8 @@ public class _dimAccessibility extends DQDimension {
 	 *            target URI
 	 */
 	public _dimAccessibility(DQModel targetmodel, List<Rule> useRules,
-			List<Rule> contextualRuleList, int depth, String endpoint,
-			String uri) {
+							 List<Rule> contextualRuleList, int depth, String endpoint,
+							 String uri) {
 		super(targetmodel);
 		this.dimName = "Accesibility";
 		this.setRuleList(useRules);
