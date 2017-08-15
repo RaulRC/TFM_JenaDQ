@@ -3,10 +3,14 @@ package org.uclm.alarcos.rrc.test.uriutil;
 import junit.framework.TestCase;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.riot.RDFDataMgr;
+import org.apache.jena.util.FileManager;
 import org.junit.Test;
 import org.uclm.alarcos.rrc.dqmodel.DQModel;
 import org.uclm.alarcos.rrc.utilities.UriUtil;
 
+import java.io.InputStream;
+import java.io.InputStreamReader;
 
 
 /**
@@ -18,8 +22,16 @@ public class UriUtilTest
 
 
     @Test
-    public void testgetURIResourceList(){
+    public void testgetURIResourceListEmpty(){
         assert(UriUtil.getURIResourceList(ModelFactory.createDefaultModel()).size() == 0);
+    }
+    @Test
+    public void testgetURIResourceListExample(){
+        String rdfSource = "src/test/resources/210673-0-eventos-igualdad-inmigrantes-100.rdf";
+        InputStream in1 = FileManager.get().open(rdfSource);
+        Model model1 = ModelFactory.createDefaultModel().read(in1, "");
+        int size = UriUtil.getURIResourceList(model1).size();
+        assert( size == 192);
     }
 
 }

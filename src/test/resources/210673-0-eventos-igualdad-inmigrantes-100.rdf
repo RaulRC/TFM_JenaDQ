@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+<rdf:RDF xmlns:dc="http://purl.org/dc/terms/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:geonames="http://www.geonames.org/ontology#" xmlns:loc="http://purl.org/ctic/infraestructuras/localizacion#" xmlns:org="http://purl.org/ctic/infraestructuras/organizacion#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:v="http://www.w3.org/2006/vcard/ns#">
+    <c:Vevent xmlns:c="http://www.w3.org/2002/12/cal#" rdf:about="http://datos.madrid.es/egob/catalogo/tipo/evento/10444524-biografias-grandes-mujeres">
+        <c:uid>10444524</c:uid>
+        <v:fn>Biografías de grandes mujeres</v:fn>
+        <c:resource/>
+        <c:rrule rdf:parseType="Resource">
+            <c:freq>WEEKLY</c:freq>
+            <c:interval rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</c:interval>
+            <c:byday>TH</c:byday>
+        </c:rrule>
+        <c:exdate/>
+        <c:dtstart>2017-08-03 12:00:00.0</c:dtstart>
+        <c:dtend>2017-08-31 23:59:00.0</c:dtend>
+        <c:summary/>
+        <c:url>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=e459a25a2446d510VgnVCM1000001d4a900aRCRD</c:url>
+        <dc:references rdf:resource="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=05d7aca27a36d510VgnVCM1000001d4a900aRCRD"/>
+        <c:location>Espacio de Igualdad Hermanas Mirabal</c:location>
+        <dc:relation rdf:resource="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6621710-espacio-igualdad-hermanas-mirabal"/>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan"/>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7037047897267947</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.45012255255781</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/actividades/CineActividadesAudiovisuales"/>
+    </c:Vevent>
+    <c:Vevent xmlns:c="http://www.w3.org/2002/12/cal#" rdf:about="http://datos.madrid.es/egob/catalogo/tipo/evento/10447537-clara-campoamor-mujer-olvidada">
+        <c:uid>10447537</c:uid>
+        <v:fn>Clara Campoamor, la mujer olvidada</v:fn>
+        <c:resource/>
+        <c:exdate/>
+        <c:dtstart>2017-08-22 09:30:00.0</c:dtstart>
+        <c:dtend>2017-08-22 23:59:00.0</c:dtend>
+        <c:summary/>
+        <c:url>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bafe09c9ec37d510VgnVCM2000001f4a900aRCRD</c:url>
+        <dc:references rdf:resource="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=19de09c9ec37d510VgnVCM2000001f4a900aRCRD"/>
+        <c:location>Espacio de Igualdad Dulce Chacón</c:location>
+        <dc:relation rdf:resource="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4525098-espacio-igualdad-dulce-chacon"/>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde"/>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7149416291006703</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.3497106325215</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/actividades/CineActividadesAudiovisuales"/>
+    </c:Vevent>
+    <c:Vevent xmlns:c="http://www.w3.org/2002/12/cal#" rdf:about="http://datos.madrid.es/egob/catalogo/tipo/evento/10447862-clases-espanol-inclusivo-mujeres-migrantes-nivel-i">
+        <c:uid>10447862</c:uid>
+        <v:fn>Clases de español inclusivo para mujeres migrantes - Nivel I</v:fn>
+        <c:resource/>
+        <c:rrule rdf:parseType="Resource">
+            <c:freq>WEEKLY</c:freq>
+            <c:interval rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</c:interval>
+            <c:byday>WE</c:byday>
+        </c:rrule>
+        <c:exdate/>
+        <c:dtstart>2017-08-16 11:30:00.0</c:dtstart>
+        <c:dtend>2017-08-30 23:59:00.0</c:dtend>
+        <c:summary/>
+        <c:url>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f96bb2410547d510VgnVCM2000001f4a900aRCRD</c:url>
+        <dc:references rdf:resource="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bf57e1e0f347d510VgnVCM2000001f4a900aRCRD"/>
+        <c:location>Espacio de Igualdad Dulce Chacón</c:location>
+        <dc:relation rdf:resource="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4525098-espacio-igualdad-dulce-chacon"/>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde"/>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7149416291006703</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.3497106325215</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+        <dc:audience>Mujeres,InmigrantesyEmigrantes</dc:audience>
+    </c:Vevent>
+    <c:Vevent xmlns:c="http://www.w3.org/2002/12/cal#" rdf:about="http://datos.madrid.es/egob/catalogo/tipo/evento/10447866-clases-espanol-inclusivo-mujeres-migrantes-nivel-ii">
+        <c:uid>10447866</c:uid>
+        <v:fn>Clases de español inclusivo para mujeres migrantes - Nivel II</v:fn>
+        <c:resource/>
+        <c:exdate/>
+        <c:dtstart>2017-08-18 11:30:00.0</c:dtstart>
+        <c:dtend>2017-08-18 23:59:00.0</c:dtend>
+        <c:summary/>
+        <c:url>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=926bb2410547d510VgnVCM2000001f4a900aRCRD</c:url>
+        <dc:references rdf:resource="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bf57e1e0f347d510VgnVCM2000001f4a900aRCRD"/>
+        <c:location>Espacio de Igualdad Dulce Chacón</c:location>
+        <dc:relation rdf:resource="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4525098-espacio-igualdad-dulce-chacon"/>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde"/>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7149416291006703</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.3497106325215</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+        <dc:audience>Mujeres,InmigrantesyEmigrantes</dc:audience>
+    </c:Vevent>
+    <c:Vevent xmlns:c="http://www.w3.org/2002/12/cal#" rdf:about="http://datos.madrid.es/egob/catalogo/tipo/evento/10447867-clases-espanol-inclusivo-mujeres-migrantes-nivel-ii">
+        <c:uid>10447867</c:uid>
+        <v:fn>Clases de español inclusivo para mujeres migrantes - Nivel II</v:fn>
+        <c:resource/>
+        <c:rrule rdf:parseType="Resource">
+            <c:freq>WEEKLY</c:freq>
+            <c:interval rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</c:interval>
+            <c:byday>TU</c:byday>
+        </c:rrule>
+        <c:exdate/>
+        <c:dtstart>2017-08-22 11:30:00.0</c:dtstart>
+        <c:dtend>2017-08-29 23:59:00.0</c:dtend>
+        <c:summary/>
+        <c:url>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=7c5bb2410547d510VgnVCM2000001f4a900aRCRD</c:url>
+        <dc:references rdf:resource="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bf57e1e0f347d510VgnVCM2000001f4a900aRCRD"/>
+        <c:location>Espacio de Igualdad Dulce Chacón</c:location>
+        <dc:relation rdf:resource="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4525098-espacio-igualdad-dulce-chacon"/>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde"/>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7149416291006703</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.3497106325215</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+        <dc:audience>Mujeres,InmigrantesyEmigrantes</dc:audience>
+    </c:Vevent>
+    <c:Vevent xmlns:c="http://www.w3.org/2002/12/cal#" rdf:about="http://datos.madrid.es/egob/catalogo/tipo/evento/10450520-crochet-verano-agosto">
+        <c:uid>10450520</c:uid>
+        <v:fn>Crochet de verano agosto</v:fn>
+        <c:resource/>
+        <c:rrule rdf:parseType="Resource">
+            <c:freq>WEEKLY</c:freq>
+            <c:interval rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</c:interval>
+            <c:byday>FR</c:byday>
+        </c:rrule>
+        <c:exdate/>
+        <c:dtstart>2017-08-04 11:00:00.0</c:dtstart>
+        <c:dtend>2017-08-25 23:59:00.0</c:dtend>
+        <c:summary/>
+        <c:url>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f62e1562c9e7d510VgnVCM1000001d4a900aRCRD</c:url>
+        <dc:references rdf:resource="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=572c27e3ab3fc510VgnVCM1000001d4a900aRCRD"/>
+        <c:location>Espacio de Igualdad Juana Doña</c:location>
+        <dc:relation rdf:resource="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10210808-espacio-igualdad-juana-dona"/>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Arganzuela"/>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6985778802913103</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.393432756132874</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+        <dc:audience>Mujeres</dc:audience>
+    </c:Vevent>
+    <c:Vevent xmlns:c="http://www.w3.org/2002/12/cal#" rdf:about="http://datos.madrid.es/egob/catalogo/tipo/evento/10455851-ejercitando-mi-cuerpo-fuente-equilibrio-emocional">
+        <c:uid>10455851</c:uid>
+        <v:fn>Ejercitando mi cuerpo como fuente para el equilibrio emocional</v:fn>
+        <c:resource/>
+        <c:rrule rdf:parseType="Resource">
+            <c:freq>WEEKLY</c:freq>
+            <c:interval rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</c:interval>
+            <c:byday>FR</c:byday>
+        </c:rrule>
+        <c:exdate/>
+        <c:dtstart>2017-08-04 12:00:00.0</c:dtstart>
+        <c:dtend>2017-08-25 23:59:00.0</c:dtend>
+        <c:summary/>
+        <c:url>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b80dd89aea79d510VgnVCM1000001d4a900aRCRD</c:url>
+        <dc:references rdf:resource="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=89ecd89aea79d510VgnVCM1000001d4a900aRCRD"/>
+        <c:location>Espacio de Igualdad María Zambrano</c:location>
+        <dc:relation rdf:resource="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185268-espacio-igualdad-maria-zambrano"/>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"/>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7143358486689415</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.433958260960964</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+    </c:Vevent>
+    <c:Vevent xmlns:c="http://www.w3.org/2002/12/cal#" rdf:about="http://datos.madrid.es/egob/catalogo/tipo/evento/10451556-empleate-apps-aplicaciones-moviles-busqueda-empleo-">
+        <c:uid>10451556</c:uid>
+        <v:fn>Empléate con las apps. Aplicaciones móviles para la búsqueda de empleo.</v:fn>
+        <c:resource/>
+        <c:exdate/>
+        <c:dtstart>2017-08-24 10:00:00.0</c:dtstart>
+        <c:dtend>2017-08-24 23:59:00.0</c:dtend>
+        <c:summary/>
+        <c:url>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=6c5eee68d038d510VgnVCM2000001f4a900aRCRD</c:url>
+        <dc:references rdf:resource="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=2a3eee68d038d510VgnVCM2000001f4a900aRCRD"/>
+        <c:location>Espacio de Igualdad María de Maeztu</c:location>
+        <dc:relation rdf:resource="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4664906-espacio-igualdad-maria-maeztu"/>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel"/>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7219395095828647</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.395280262214236</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+        <dc:audience>Mujeres</dc:audience>
+    </c:Vevent>
+    <c:Vevent xmlns:c="http://www.w3.org/2002/12/cal#" rdf:about="http://datos.madrid.es/egob/catalogo/tipo/evento/10434531-entrena-tus-emociones">
+        <c:uid>10434531</c:uid>
+        <v:fn>Entrena tus emociones</v:fn>
+        <c:resource/>
+        <c:rrule rdf:parseType="Resource">
+            <c:freq>WEEKLY</c:freq>
+            <c:interval rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</c:interval>
+            <c:byday>TH</c:byday>
+        </c:rrule>
+        <c:exdate/>
+        <c:dtstart>2017-08-03 12:30:00.0</c:dtstart>
+        <c:dtend>2017-08-31 23:59:00.0</c:dtend>
+        <c:summary/>
+        <c:url>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=5200a9487663d510VgnVCM1000001d4a900aRCRD</c:url>
+        <dc:references rdf:resource="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=a8cfa9487663d510VgnVCM1000001d4a900aRCRD"/>
+        <c:location>Espacio de Igualdad María Telo</c:location>
+        <dc:relation rdf:resource="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8371766-espacio-igualdad-maria-telo"/>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moratalaz"/>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6538891267077664</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.41087442118042</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+        <dc:audience>Mujeres</dc:audience>
+    </c:Vevent>
+    <c:Vevent xmlns:c="http://www.w3.org/2002/12/cal#" rdf:about="http://datos.madrid.es/egob/catalogo/tipo/evento/10440061-formacion-monitoras-patio-comedor-especialidad-promotora-igualdad-entornos-escolares">
+        <c:uid>10440061</c:uid>
+        <v:fn>Formación: Monitoras de patio y comedor. Especialidad: Promotora de igualdad en entornos escolares</v:fn>
+        <c:resource/>
+        <c:rrule rdf:parseType="Resource">
+            <c:freq>WEEKLY</c:freq>
+            <c:interval rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</c:interval>
+            <c:byday>MO,TU,WE,TH,FR</c:byday>
+        </c:rrule>
+        <c:exdate/>
+        <c:dtstart>2017-09-06 15:00:00.0</c:dtstart>
+        <c:dtend>2017-11-03 23:59:00.0</c:dtend>
+        <c:summary/>
+        <c:url>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b4e09d4d6015d510VgnVCM2000001f4a900aRCRD</c:url>
+        <dc:references rdf:resource="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=af4f9d4d6015d510VgnVCM2000001f4a900aRCRD"/>
+        <c:location>Espacio de Igualdad Dulce Chacón</c:location>
+        <dc:relation rdf:resource="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4525098-espacio-igualdad-dulce-chacon"/>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde"/>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7149416291006703</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.3497106325215</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+    </c:Vevent>
+    <c:Vevent xmlns:c="http://www.w3.org/2002/12/cal#" rdf:about="http://datos.madrid.es/egob/catalogo/tipo/evento/10455759-habitos-limitantes-puedo-manejar-">
+        <c:uid>10455759</c:uid>
+        <v:fn>Hábitos limitantes, ¿cómo los puedo manejar?</v:fn>
+        <c:resource/>
+        <c:rrule rdf:parseType="Resource">
+            <c:freq>WEEKLY</c:freq>
+            <c:interval rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</c:interval>
+            <c:byday>MO,TU,WE,TH,FR,SA,SU</c:byday>
+        </c:rrule>
+        <c:exdate/>
+        <c:dtstart>2017-08-21 12:00:00.0</c:dtstart>
+        <c:dtend>2017-08-23 23:59:00.0</c:dtend>
+        <c:summary/>
+        <c:url>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=435ad89aea79d510VgnVCM1000001d4a900aRCRD</c:url>
+        <dc:references rdf:resource="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=013ad89aea79d510VgnVCM1000001d4a900aRCRD"/>
+        <c:location>Espacio de Igualdad María Zambrano</c:location>
+        <dc:relation rdf:resource="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185268-espacio-igualdad-maria-zambrano"/>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"/>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7143358486689415</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.433958260960964</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+    </c:Vevent>
+    <c:Vevent xmlns:c="http://www.w3.org/2002/12/cal#" rdf:about="http://datos.madrid.es/egob/catalogo/tipo/evento/10455704-linkedin-principiantes">
+        <c:uid>10455704</c:uid>
+        <v:fn>Linkedin para principiantes</v:fn>
+        <c:resource/>
+        <c:exdate/>
+        <c:dtstart>2017-08-21 10:00:00.0</c:dtstart>
+        <c:dtend>2017-08-21 23:59:00.0</c:dtend>
+        <c:summary/>
+        <c:url>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=1d98d89aea79d510VgnVCM1000001d4a900aRCRD</c:url>
+        <dc:references rdf:resource="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=3588d89aea79d510VgnVCM1000001d4a900aRCRD"/>
+        <c:location>Espacio de Igualdad María Zambrano</c:location>
+        <dc:relation rdf:resource="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185268-espacio-igualdad-maria-zambrano"/>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Chamberi"/>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7143358486689415</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.433958260960964</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+    </c:Vevent>
+    <c:Vevent xmlns:c="http://www.w3.org/2002/12/cal#" rdf:about="http://datos.madrid.es/egob/catalogo/tipo/evento/10451626-sacale-partido-internet-gestiones-telematicas">
+        <c:uid>10451626</c:uid>
+        <v:fn>Sácale partido a Internet: Gestiones telemáticas</v:fn>
+        <c:resource/>
+        <c:exdate/>
+        <c:dtstart>2017-08-28 12:00:00.0</c:dtstart>
+        <c:dtend>2017-08-28 23:59:00.0</c:dtend>
+        <c:summary/>
+        <c:url>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=07d4abceef28d510VgnVCM1000001d4a900aRCRD</c:url>
+        <dc:references rdf:resource="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=4df3abceef28d510VgnVCM1000001d4a900aRCRD"/>
+        <c:location>Espacio de Igualdad María de Maeztu</c:location>
+        <dc:relation rdf:resource="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4664906-espacio-igualdad-maria-maeztu"/>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel"/>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7219395095828647</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.395280262214236</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+        <dc:audience>Mujeres</dc:audience>
+    </c:Vevent>
+    <c:Vevent xmlns:c="http://www.w3.org/2002/12/cal#" rdf:about="http://datos.madrid.es/egob/catalogo/tipo/evento/10451627-sacale-partido-internet-gestiones-telematicas">
+        <c:uid>10451627</c:uid>
+        <v:fn>Sácale partido a Internet: Gestiones telemáticas</v:fn>
+        <c:resource/>
+        <c:exdate/>
+        <c:dtstart>2017-08-30 12:00:00.0</c:dtstart>
+        <c:dtend>2017-08-30 23:59:00.0</c:dtend>
+        <c:summary/>
+        <c:url>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=05d4abceef28d510VgnVCM1000001d4a900aRCRD</c:url>
+        <dc:references rdf:resource="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=4df3abceef28d510VgnVCM1000001d4a900aRCRD"/>
+        <c:location>Espacio de Igualdad María de Maeztu</c:location>
+        <dc:relation rdf:resource="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4664906-espacio-igualdad-maria-maeztu"/>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Carabanchel"/>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7219395095828647</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.395280262214236</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+        <dc:audience>Mujeres</dc:audience>
+    </c:Vevent>
+    <c:Vevent xmlns:c="http://www.w3.org/2002/12/cal#" rdf:about="http://datos.madrid.es/egob/catalogo/tipo/evento/10447774-salud-nutricional-alimentacion-sana-largo-vida-mujeres">
+        <c:uid>10447774</c:uid>
+        <v:fn>Salud nutricional: para una alimentación sana a lo largo de la vida de las mujeres</v:fn>
+        <c:resource/>
+        <c:exdate/>
+        <c:dtstart>2017-08-17 10:00:00.0</c:dtstart>
+        <c:dtend>2017-08-17 23:59:00.0</c:dtend>
+        <c:summary/>
+        <c:url>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=701dc114b147d510VgnVCM2000001f4a900aRCRD</c:url>
+        <dc:references rdf:resource="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=930dc114b147d510VgnVCM2000001f4a900aRCRD"/>
+        <c:location>Espacio de Igualdad Dulce Chacón</c:location>
+        <dc:relation rdf:resource="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4525098-espacio-igualdad-dulce-chacon"/>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Villaverde"/>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7149416291006703</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.3497106325215</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+        <dc:audience>Mujeres</dc:audience>
+    </c:Vevent>
+    <c:Vevent xmlns:c="http://www.w3.org/2002/12/cal#" rdf:about="http://datos.madrid.es/egob/catalogo/tipo/evento/10444582-taller-educacion-igualdad-coeducacion">
+        <c:uid>10444582</c:uid>
+        <v:fn>Taller sobre educación en igualdad. Coeducación</v:fn>
+        <c:resource/>
+        <c:exdate/>
+        <c:dtstart>2017-08-16 11:00:00.0</c:dtstart>
+        <c:dtend>2017-08-16 23:59:00.0</c:dtend>
+        <c:summary/>
+        <c:url>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=399ba25a2446d510VgnVCM1000001d4a900aRCRD</c:url>
+        <dc:references rdf:resource="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=de2ba25a2446d510VgnVCM1000001d4a900aRCRD"/>
+        <c:location>Espacio de Igualdad Hermanas Mirabal</c:location>
+        <dc:relation rdf:resource="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6621710-espacio-igualdad-hermanas-mirabal"/>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan"/>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7037047897267947</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.45012255255781</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+    </c:Vevent>
+    <c:Vevent xmlns:c="http://www.w3.org/2002/12/cal#" rdf:about="http://datos.madrid.es/egob/catalogo/tipo/evento/10444583-taller-lenguaje-inclusivo">
+        <c:uid>10444583</c:uid>
+        <v:fn>Taller sobre lenguaje inclusivo</v:fn>
+        <c:resource/>
+        <c:exdate/>
+        <c:dtstart>2017-08-23 11:00:00.0</c:dtstart>
+        <c:dtend>2017-08-23 23:59:00.0</c:dtend>
+        <c:summary/>
+        <c:url>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=1e9ba25a2446d510VgnVCM1000001d4a900aRCRD</c:url>
+        <dc:references rdf:resource="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=de2ba25a2446d510VgnVCM1000001d4a900aRCRD"/>
+        <c:location>Espacio de Igualdad Hermanas Mirabal</c:location>
+        <dc:relation rdf:resource="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6621710-espacio-igualdad-hermanas-mirabal"/>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan"/>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7037047897267947</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.45012255255781</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+    </c:Vevent>
+    <c:Vevent xmlns:c="http://www.w3.org/2002/12/cal#" rdf:about="http://datos.madrid.es/egob/catalogo/tipo/evento/10444584-taller-mitos-amor-romantico">
+        <c:uid>10444584</c:uid>
+        <v:fn>Taller sobre mitos del amor romántico</v:fn>
+        <c:resource/>
+        <c:exdate/>
+        <c:dtstart>2017-08-30 11:00:00.0</c:dtstart>
+        <c:dtend>2017-08-30 23:59:00.0</c:dtend>
+        <c:summary/>
+        <c:url>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=ff8ba25a2446d510VgnVCM1000001d4a900aRCRD</c:url>
+        <dc:references rdf:resource="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=de2ba25a2446d510VgnVCM1000001d4a900aRCRD"/>
+        <c:location>Espacio de Igualdad Hermanas Mirabal</c:location>
+        <dc:relation rdf:resource="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6621710-espacio-igualdad-hermanas-mirabal"/>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Tetuan"/>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7037047897267947</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.45012255255781</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+    </c:Vevent>
+    <c:Vevent xmlns:c="http://www.w3.org/2002/12/cal#" rdf:about="http://datos.madrid.es/egob/catalogo/tipo/evento/10434495-buenos-dias-moratalaz-">
+        <c:uid>10434495</c:uid>
+        <v:fn>¡Buenos días, Moratalaz!</v:fn>
+        <c:resource/>
+        <c:rrule rdf:parseType="Resource">
+            <c:freq>WEEKLY</c:freq>
+            <c:interval rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</c:interval>
+            <c:byday>WE</c:byday>
+        </c:rrule>
+        <c:exdate/>
+        <c:dtstart>2017-08-02 09:30:00.0</c:dtstart>
+        <c:dtend>2017-08-30 23:59:00.0</c:dtend>
+        <c:summary/>
+        <c:url>http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d21fa9487663d510VgnVCM1000001d4a900aRCRD</c:url>
+        <dc:references rdf:resource="http://www.madrid.es/sites/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=43dea9487663d510VgnVCM1000001d4a900aRCRD"/>
+        <c:location>Espacio de Igualdad María Telo</c:location>
+        <dc:relation rdf:resource="http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8371766-espacio-igualdad-maria-telo"/>
+        <v:adr>
+            <rdf:Description>
+                <loc:distrito rdf:resource="http://datos.madrid.es/egob/kos/Provincia/Madrid/Municipio/Madrid/Distrito/Moratalaz"/>
+            </rdf:Description>
+        </v:adr>
+        <v:geo>
+            <rdf:Description>
+                <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6538891267077664</geo:long>
+                <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.41087442118042</geo:lat>
+            </rdf:Description>
+        </v:geo>
+        <rdf:type rdf:resource="http://datos.madrid.es/egob/kos/actividades/CursosTalleres"/>
+        <dc:audience>Mujeres</dc:audience>
+    </c:Vevent>
+</rdf:RDF>
+
+
+
+
+
+
+
