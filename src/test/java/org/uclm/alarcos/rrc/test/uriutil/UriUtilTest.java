@@ -19,7 +19,9 @@ import java.io.InputStreamReader;
 public class UriUtilTest
     extends TestCase {
     private DQModel dqmodel = new DQModel();
-
+    private final String rdfSource = "src/test/resources/210673-0-eventos-igualdad-inmigrantes-100.rdf";
+    private final InputStream in1 = FileManager.get().open(rdfSource);
+    private final Model model1 = ModelFactory.createDefaultModel().read(in1, "");
 
     @Test
     public void testgetURIResourceListEmpty(){
@@ -27,11 +29,7 @@ public class UriUtilTest
     }
     @Test
     public void testgetURIResourceListExample(){
-        String rdfSource = "src/test/resources/210673-0-eventos-igualdad-inmigrantes-100.rdf";
-        InputStream in1 = FileManager.get().open(rdfSource);
-        Model model1 = ModelFactory.createDefaultModel().read(in1, "");
         int size = UriUtil.getURIResourceList(model1).size();
         assert( size == 192);
     }
-
 }
