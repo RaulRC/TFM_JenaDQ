@@ -11,6 +11,7 @@ public class DQModelTest
     extends TestCase{
     private DQModel dqmodel = new DQModel();
 
+
     @Test
     public void testDQModel(){
         assert(true);

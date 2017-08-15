@@ -16,7 +16,7 @@ import java.util.Iterator;
  * Utilities for queries and recovering information about semantic models
  * through HTTP.
  * 
- * @author Ra�l Reguillo Carmona
+ * @author Raúl Reguillo Carmona
  * 
  */
 public class UriUtil {
@@ -57,12 +57,14 @@ public class UriUtil {
 		// http://jena.apache.org/tutorials/rdf_api.html
 		ArrayList<RDFNode> luri = new ArrayList<RDFNode>();
 		StmtIterator st = m.listStatements();
-		luri.add(st.next().getSubject());
-		RDFNode n;
-		while (st.hasNext()) {
-			n = st.next().getObject();
-			if (!luri.contains(n))
-				luri.add(n);
+		if (st.hasNext()){
+			luri.add(st.next().getSubject());
+			RDFNode n;
+			while (st.hasNext()) {
+				n = st.next().getObject();
+				if (!luri.contains(n))
+					luri.add(n);
+			}
 		}
 		return luri;
 	}
