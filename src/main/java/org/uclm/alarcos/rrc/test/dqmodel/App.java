@@ -1,4 +1,4 @@
-package org.uclm.alarcos.rrc.semantic;
+package org.uclm.alarcos.rrc.test.dqmodel;
 
 /**
  * Hello world!

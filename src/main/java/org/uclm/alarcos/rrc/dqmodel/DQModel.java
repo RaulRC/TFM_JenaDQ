@@ -12,7 +12,7 @@ import java.io.InputStream;
  * class distinguish the extension. If URI and Endpoint are specified, returns
  * the model or an exception.
  * 
- * @author Ra�l Reguillo Carmona
+ * @author Raul Reguillo Carmona
  * 
  */
 public class DQModel {
@@ -50,7 +50,7 @@ public class DQModel {
 	}
 
 	/**
-	 * Creates a new DQModel usign URI and Endpoint
+	 * Creates a new DQModel using URI and Endpoint
 	 * 
 	 * @param endpoint
 	 *            address of HTTP service
@@ -66,7 +66,7 @@ public class DQModel {
 	}
 
 	/**
-	 * Creates a DQModel filterign the subject
+	 * Creates a DQModel filtering the subject
 	 * 
 	 * @param endpoint
 	 *            address of HTTP service

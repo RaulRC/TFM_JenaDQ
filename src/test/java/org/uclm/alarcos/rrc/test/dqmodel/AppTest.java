@@ -1,4 +1,4 @@
-package org.uclm.alarcos.rrc.semantic;
+package org.uclm.alarcos.rrc.test.dqmodel;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

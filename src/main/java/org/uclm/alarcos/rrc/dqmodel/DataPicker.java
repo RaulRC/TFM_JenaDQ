@@ -14,7 +14,7 @@ import java.io.InputStream;
 /**
  * Auxiliar class used to pick data in various ways
  * 
- * @author Ra�l Reguillo Carmona
+ * @author Raul Reguillo Carmona
  * @link JenaDQ.src.DQModel.DQModel
  * 
  */
