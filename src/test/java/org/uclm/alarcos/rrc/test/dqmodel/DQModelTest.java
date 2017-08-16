@@ -19,6 +19,12 @@ public class DQModelTest
     private final InputStream in1 = FileManager.get().open(rdfSource);
     private final Model model1 = ModelFactory.createDefaultModel().read(in1, "");
 
+/*    @Test
+    public void testCreateModel(){
+        DQModel dqm = new DQModel(in1, "rdf");
+        assert(dqm.getModel().size() > 0);
+    }*/
+
     @Test
     public void testDQModel(){
         assert(true);
