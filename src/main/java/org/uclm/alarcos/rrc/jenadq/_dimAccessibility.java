@@ -57,7 +57,7 @@ public class _dimAccessibility extends DQDimension {
 		this.setRuleList(useRules);
 		this.setDepth(depth);
 		this.setEndpoint(endpoint);
-		this.useRules = contextualRuleList;
+		this.contextualRules = contextualRuleList;
 		mRes = new ArrayList<MeasurementResult>();
 
 		this.assessmentResults = new ArrayList<Double>();
