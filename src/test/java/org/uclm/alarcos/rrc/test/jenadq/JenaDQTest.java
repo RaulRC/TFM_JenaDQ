@@ -8,6 +8,7 @@ import org.apache.jena.util.FileManager;
 import org.junit.Test;
 import org.uclm.alarcos.rrc.dqmodel.DQModel;
 import org.uclm.alarcos.rrc.jenadq._dimAccessibility;
+import org.uclm.alarcos.rrc.jenadq._dimCompleteness;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -59,8 +60,32 @@ public class JenaDQTest
             e.printStackTrace();
             assert(false);
         }
+    }
+    @Test
+    public void test_Completeness(){
+        DQModel dqm = new DQModel();
+        dqm.setDqmodel(model1);
+        BufferedReader brc = new BufferedReader(new InputStreamReader(useRules));
+        BufferedReader crc = new BufferedReader(new InputStreamReader(contextRules));
+        List<Rule> useRules = Rule.parseRules(Rule.rulesParserFromReader(brc));
+        List<Rule> contextualRules = Rule.parseRules(Rule.rulesParserFromReader(crc));
 
+        _dimCompleteness completeness = new _dimCompleteness(dqm, useRules, contextualRules, 0, "http://dbpedia.org/sparql", "http://es.dbpedia.org/page/Metallica");
+        completeness.setAssessmentIdentifier("testingCompleteness");
 
+        completeness.setURI("someuri");
+        completeness.setContextualRules(contextualRules);
+        try{
+            Model result = completeness._executeMeasurement();
+            result.write(System.out);
+            DQModel dqmResult = new DQModel();
+            dqmResult.setDqmodel(result);
+            assert(result.size() > 0);
+        }
+        catch (Exception e){
+            e.printStackTrace();
+            assert(false);
+        }
     }
 
 
