@@ -1,0 +1,12 @@
+@prefix rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+@prefix ex: http://www.dqassessment.org/ontologies/2014/9/DQA.owl#
+@prefix dbpedia: http://dbpedia.org/property/ 
+@prefix dbpedia-ont: http://dbpedia.org/ontology/ 
+@prefix sq: http://schema.org/
+@prefix umbel: http://umbel.org/umbel/rc/
+
+#[rule1: ( ?x rdf:type ?y ) -> print(?x 'has RDF TYPE property' ?y) ]
+
+#[rule2: ( ?x dbpedia:country ?y ) -> print (?x 'has DBPEDIA COUNTRY prop' ?y)] 
+
+[completeness: (?x rdf:type ex:NoCompleteness) <- noValue(?x rdf:type ?y) noValue(?x dbpedia:title ?z) noValue(?x dbpedia-ont:background ?b) ]

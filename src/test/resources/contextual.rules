@@ -1,0 +1,26 @@
+@prefix ex: http://www.dqassessment.org/ontologies/2014/9/DQA.owl#
+@prefix rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+
+#[completeness_contextual_BAD: (?x DQA:ContextualCompleteness ?y), (?y DQA:ContextualCompletenessInLevel ?z), (?y DQA:ContextualCompletenessMeasureInLevel DQA:BAD) <- (?x DQA:Completeness ?y) , (?y DQA:CompletenessInLevel ?z) , (?y DQA: CompletenessMeasureInLevel ?a), lessThan(?a, 0.5)  ]
+
+
+#COMPLETENESSS
+[completeness_low: (?x ex:CompletenessMeasure ?y) lessThan(?y, 0.3) ge(?y, 0.0) ->  print ( ?x 'has LOW value >>>> ' ?y) (?x ex:ContextualMeasure ex:LOW ) ]
+
+[completeness_med: (?x ex:CompletenessMeasure ?y) ge(?y, 0.3) lessThan(?y, 0.7) ->  print ( ?x 'has MED value >>>> ' ?y) (?x ex:ContextualMeasure ex:MED ) ]
+
+[completeness_high: (?x ex:CompletenessMeasure ?y) ge(?y, 0.7) le(?y, 1.0)->  print ( ?x 'has HIGH value >>>> ' ?y) (?x ex:ContextualMeasure ex:HIGH ) ]
+
+
+#ACCESIBILITY
+[accessibility_low: (?x ex:AccessibilityMeasure ?y) lessThan(?y, 0.3) ge(?y, 0.0) ->  print ( ?x 'has LOW value >>>> ' ?y) (?x ex:ContextualMeasure ex:LOW ) ]
+
+[accessibility_med: (?x ex:AccessibilityMeasure ?y) ge(?y, 0.3) lessThan(?y, 0.7) ->  print ( ?x 'has MED value >>>> ' ?y) (?x ex:ContextualMeasure ex:MED ) ]
+
+[accessibility_high: (?x ex:AccessibilityMeasure ?y) ge(?y, 0.7) le(?y, 1.0)->  print ( ?x 'has HIGH value >>>> ' ?y) (?x ex:ContextualMeasure ex:HIGH ) ]
+
+
+
+
+
+#[completeness_contextual_GOOD: (?x DQA:ContextualCompleteness ?y), (?y DQA:ContextualCompletenessInLevel ?z), (?y DQA:ContextualCompletenessMeasureInLevel DQA:BAD) <- (?x DQA:Completeness ?y), (?y DQA:CompletenessInLevel ?z), (?y DQA: CompletenessMeasureInLevel ?a), greaterThan(?a, 0.6)  ]
