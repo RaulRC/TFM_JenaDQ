@@ -1,4 +1,4 @@
-package org.uclm.alarcos.rrc.test.dqmodel;
+package org.uclm.alarcos.rrc.unittest.dqmodel;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

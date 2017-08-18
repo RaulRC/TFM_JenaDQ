@@ -1,22 +1,20 @@
-package org.uclm.alarcos.rrc.test.uriutil;
+package org.uclm.alarcos.rrc.integrationtests.uriutil;
 
 import junit.framework.TestCase;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.riot.RDFDataMgr;
 import org.apache.jena.util.FileManager;
 import org.junit.Test;
 import org.uclm.alarcos.rrc.dqmodel.DQModel;
 import org.uclm.alarcos.rrc.utilities.UriUtil;
 
 import java.io.InputStream;
-import java.io.InputStreamReader;
 
 
 /**
  * Unit test for simple App.
  */
-public class UriUtilTest
+public class intUriUtilTest
     extends TestCase {
     private DQModel dqmodel = new DQModel();
     private final String rdfSource = "src/test/resources/210673-0-eventos-igualdad-inmigrantes-100.rdf";
@@ -30,6 +28,6 @@ public class UriUtilTest
     @Test
     public void testgetURIResourceListExample(){
         int size = UriUtil.getURIResourceList(model1).size();
-        assert( size == 192);
+        assert( size != 0);
     }
 }
